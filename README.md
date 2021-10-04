@@ -8,7 +8,7 @@
 - compilar/executar o TS (com e sem argumento)
 - Declarar variáveis (var, let e const)
   - escopo do var
-- função (arrow vs function)
+- função (arrow vs function) [cabuloso deixar por ultimo]
 - js object
 - `this`
 - Promises (`async await` vs `then`)/callbacks
@@ -18,6 +18,10 @@
 - JS vs TS (oq é especifico TS e JS)
 - Introdução ao Jest
 - NPM
+
+## TODO
+
+- Check the differences between arrow function and standard function
 
 ## Pre requisitos
 
