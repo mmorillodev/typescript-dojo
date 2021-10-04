@@ -1,7 +1,7 @@
-export default function greet() {
-  console.log("Hello World!");
+export default function greet(name: string) {
+  console.log(`Hello ${name}!`);
 
   return "Hello World!";
 }
 
-greet();
+greet(process.argv[2]);
