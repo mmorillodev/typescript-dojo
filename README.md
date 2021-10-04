@@ -11,8 +11,8 @@
 - função (arrow vs function) [cabuloso deixar por ultimo]
 - js object
 - `this`
-- Promises (`async await` vs `then`)/callbacks
 - import e export
+- Promises (`async await` vs `then`)/callbacks
 - Criando tipos (`interface` vs `type`)
 - || vs ??
 - JS vs TS (oq é especifico TS e JS)

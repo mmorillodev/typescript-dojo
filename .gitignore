@@ -22,3 +22,6 @@
 tmp/
 secrets/
 /dist
+
+# Intellij
+.idea
