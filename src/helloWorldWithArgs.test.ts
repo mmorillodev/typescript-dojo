@@ -1,7 +1,7 @@
-import greet from "./app";
+import greet from "./helloWorldWithArgs";
 
 describe("app", () => {
-  it("should return 'Hello World!'", () => {
+  it("should return 'Hello {name}!'", () => {
     expect(greet("Matheus")).toBe("Hello Matheus!");
   });
 });

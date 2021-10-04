@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "tsc && node dist/app.js Matheus",
-    "test": "jest"
+    "start": "tsc && node dist/app.js",
+    "test": "tsc && jest"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +25,7 @@
       ".ts"
     ],
     "testMatch": [
-      "**/*.test.ts"
+      "**/*.test.js"
     ]
   }
 }
