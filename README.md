@@ -5,23 +5,24 @@
 ## Pontos
 
 - Hello world
-- compilar/executar o TS (com e sem argumento)
+- Compilar/executar o TS (com e sem argumento)
 - Declarar variáveis (var, let e const)
   - escopo do var
-- função (arrow vs function) [cabuloso deixar por ultimo]
+- Função (arrow vs function) 
 - js object
 - `this`
 - import e export
 - Promises (`async await` vs `then`)/callbacks
 - Criando tipos (`interface` vs `type`)
-- || vs ??
-- JS vs TS (oq é especifico TS e JS)
 - Introdução ao Jest
 - NPM
+- || vs ??
+
+- JS vs TS (oq é especifico TS e JS)
 
 ## TODO
 
-- Check the differences between arrow function and standard function
+- Check the differences between arrow function and standard function [cabuloso deixar por ultimo]
 
 ## Pre requisitos
 
