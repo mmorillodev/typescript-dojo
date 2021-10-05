@@ -1,3 +1,5 @@
+// # var vs let vs const
+
 for (var i = 0; i < 10; i++) {}
 
 console.log(`i ${i}`);

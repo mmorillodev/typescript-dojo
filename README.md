@@ -1,10 +1,20 @@
 # Typescript dojo
 
+## Todo
+
+- Script mob session
+- Testes referentes ao que a gente fez
+- Criar arquivos de code style
+- Estruturar o que sera falado no inicio e contar quanto tempo demandará
+- Criar um form de feedback da mob session e o intervalo fornecido
+- Agendar mob session
+
 ## O que será abordado
 
 ## Pontos
 
 - Hello world
+- Introdução ao Jest
 - Compilar/executar o TS (com e sem argumento)
 - Declarar variáveis (var, let e const)
   - escopo do var
@@ -12,13 +22,11 @@
 - js object
 - `this`
 - import e export
-- Promises (`async await` vs `then`)/callbacks
 - Criando tipos (`interface` vs `type`)
-- Introdução ao Jest
-- NPM
 - || vs ??
-
 - JS vs TS (oq é especifico TS e JS)
+- NPM
+- Promises (`async await` vs `then`)/callbacks
 
 ## Pre requisitos
 

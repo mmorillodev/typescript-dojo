@@ -1,3 +1,5 @@
+// # Arrow function vs standard function
+
 // ==========Syntatically==========
 
 import { Person } from "./types/Person";

@@ -1,3 +1,5 @@
+// # Promises - than/catch vs async await + Promise.all
+
 import axios from "axios";
 import { PokemonList } from "./types/PokeList";
 import { PokemonDetails } from "./types/PokeDetails";
