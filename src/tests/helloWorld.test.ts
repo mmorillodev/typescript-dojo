@@ -1,4 +1,4 @@
-import greet from "./helloWorld";
+import greet from "../helloWorld";
 
 describe("app", () => {
   it("should return 'Hello World!'", () => {
