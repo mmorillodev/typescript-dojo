@@ -8,7 +8,7 @@
 - Compilar/executar o TS (com e sem argumento)
 - Declarar variáveis (var, let e const)
   - escopo do var
-- Função (arrow vs function) 
+- Função (arrow vs function)
 - js object
 - `this`
 - import e export
@@ -19,10 +19,6 @@
 - || vs ??
 
 - JS vs TS (oq é especifico TS e JS)
-
-## TODO
-
-- Check the differences between arrow function and standard function [cabuloso deixar por ultimo]
 
 ## Pre requisitos
 
