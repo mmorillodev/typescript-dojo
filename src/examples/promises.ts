@@ -1,19 +1,22 @@
 // # Promises - than/catch vs async await + Promise.all
 
-import { PokemonList } from "./types/PokeList";
-import { PokemonDetails } from "./types/PokeDetails";
-import pokeAPI from "./api/pokeAPI";
+import { PokemonList } from "../types/PokemonList";
+import { PokemonDetails } from "../types/PokemonDetails";
+import { pokeAPI } from "../api/pokeAPI";
 
-const getPokeList = () => {
-  pokeAPI.get<PokemonList>("/pokemon").then((responsePokeList) => {
-    responsePokeList.data.results.forEach((item) => {
-      const url = item.url.split("v2/")[1];
+export const getPokeList = () => {
+  pokeAPI
+    .get<PokemonList>("/pokemon")
+    .then((responsePokeList) => {
+      responsePokeList.data.results.forEach((item) => {
+        const url = item.url.split("v2/")[1];
 
-      pokeAPI.get<PokemonDetails>(url).then(({ data: { name, sprites } }) => {
-        console.log(name, sprites.other?.["official-artwork"].front_default);
+        pokeAPI.get<PokemonDetails>(url).then(({ data: { name, sprites } }) => {
+          console.log(name, sprites.other?.["official-artwork"].front_default);
+        });
       });
-    });
-  });
+    })
+    .catch((e) => console.log(e));
 };
 
 // getPokeList()
@@ -40,9 +43,11 @@ const getPokeImagesImproved = async () => {
     data: { results },
   } = await pokeAPI.get<PokemonList>("/pokemon");
 
-  const promises = results.map((item) => {
-    const url = item.url.split("v2/")[1];
-    return pokeAPI.get<PokemonDetails>(url);
+  const promises = results.map(({ url }) => {
+    const croppedURL = url.split("v2")[1];
+    console.log(croppedURL);
+
+    return pokeAPI.get<PokemonDetails>(croppedURL);
   });
 
   const pokeDetailsList = await Promise.all(promises);
@@ -52,4 +57,4 @@ const getPokeImagesImproved = async () => {
   });
 };
 
-getPokeImagesImproved();
+// getPokeImagesImproved();

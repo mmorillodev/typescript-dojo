@@ -1,0 +1,14 @@
+{
+  "name": "bulbasaur",
+  "sprites": {
+    "other": {
+      "dream_world": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg",
+        "front_female": null
+      },
+      "official-artwork": {
+        "front_default": "image"
+      }
+    }
+  }
+}

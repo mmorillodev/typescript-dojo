@@ -8,6 +8,7 @@
 - Estruturar o que sera falado no inicio e contar quanto tempo demandará
 - Criar um form de feedback da mob session e o intervalo fornecido
 - Agendar mob session
+- Mudar nome da branch de master pra main
 
 ## O que será abordado
 
