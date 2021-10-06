@@ -27,7 +27,8 @@
       ".ts"
     ],
     "testMatch": [
-      "**/*.test.js"
+      "**/*.test.js",
+      "!**/examples/**"
     ]
   }
 }
