@@ -1,9 +1,9 @@
-import { SimplePokeInfo } from "./types/SimplePokeInfo";
+import { SimplePokeInfo } from './types/SimplePokeInfo'
 
 export function getPokemonImages(): SimplePokeInfo[] {
-  return [];
+  return []
 }
 
 export const getPokemonEvolutions = (): PokemonEvolutions[] => {
-  return [];
-};
+  return []
+}

@@ -1,5 +1,5 @@
 export default function greet(name: string) {
-  return `Hello ${name}!`;
+  return `Hello ${name}!`
 }
 
-console.log(greet(process.argv[2]));
+console.log(greet(process.argv[2]))

@@ -3,7 +3,6 @@
 ## Todo
 
 - Script mob session
-- Testes referentes ao que a gente fez
 - Criar arquivos de code style
 - Estruturar o que sera falado no inicio e contar quanto tempo demandará
 - Criar um form de feedback da mob session e o intervalo fornecido

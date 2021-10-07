@@ -1,7 +1,7 @@
-import greet from "../helloWorld";
+import greet from '../helloWorld'
 
-describe("app", () => {
+describe('app', () => {
   it("should return 'Hello World!'", () => {
-    expect(greet()).toBe("Hello World!");
-  });
-});
+    expect(greet()).toBe('Hello World!')
+  })
+})
