@@ -1,4 +1,4 @@
-interface PokemonEvolutions {
+export interface PokemonEvolutions {
   name: string
   evolutions: string[]
 }
