@@ -9,8 +9,6 @@ jest.mock("../api/pokeAPI");
 describe("pokemon.ts", () => {
   it("should return the list of pokemon with its images", async () => {
     (pokeAPI.get as jest.Mock).mockImplementation((url) => {
-      console.log(url);
-
       switch (url) {
         case "/pokemon":
           return Promise.resolve({ data: PokemonList });

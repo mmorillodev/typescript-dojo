@@ -45,7 +45,6 @@ const getPokeImagesImproved = async () => {
 
   const promises = results.map(({ url }) => {
     const croppedURL = url.split("v2")[1];
-    console.log(croppedURL);
 
     return pokeAPI.get<PokemonDetails>(croppedURL);
   });
