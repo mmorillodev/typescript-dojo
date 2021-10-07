@@ -3,7 +3,7 @@
 const person = {
   name: 'Iolanda',
   age: 45,
-  isAdult: function () {
+  isAdult() {
     this.age >= 18;
   },
 };
@@ -32,7 +32,7 @@ function PersonOld(this: any, name: string, age: number) {
   this.name = name;
   this.age = age;
 
-  this.isAdult = function () {
+  this.isAdult = function() {
     return age >= 18;
   };
 }
