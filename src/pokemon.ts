@@ -1,8 +1,8 @@
-import { PokemonEvolutions } from './types/PokemonEvolutions'
-import { SimplePokeInfo } from './types/SimplePokeInfo'
+import { PokemonEvolutions } from './types/PokemonEvolutions';
+import { SimplePokeInfo } from './types/SimplePokeInfo';
 
 export function getPokemonImages(): SimplePokeInfo[] {
-  return []
+  return [];
 }
 
-export const getPokemonEvolutions = (): PokemonEvolutions[] => []
+export const getPokemonEvolutions = (): PokemonEvolutions[] => [];

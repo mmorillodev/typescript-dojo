@@ -1,4 +1,4 @@
 export interface PokemonEvolutions {
-  name: string
-  evolutions: string[]
+  name: string;
+  evolutions: string[];
 }

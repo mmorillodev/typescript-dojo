@@ -2,8 +2,9 @@
 
 ## Todo
 
+- Testar prettier no Intellij
 - Estruturar o que sera falado no inicio e contar quanto tempo demandará
-- Criar um form de feedback da mob session e o intervalo fornecido
+- Criar um form de feedback da mob session, perguntar sobre o intervalo fornecido
 
 ## O que será abordado
 
