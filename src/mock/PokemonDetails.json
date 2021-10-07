@@ -1,13 +1,29 @@
 {
-  "name": "bulbasaur",
-  "sprites": {
-    "other": {
-      "dream_world": {
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg",
-        "front_female": null
-      },
-      "official-artwork": {
-        "front_default": "image"
+  "bulbasaur": {
+    "name": "bulbasaur",
+    "species": {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+    },
+    "sprites": {
+      "other": {
+        "official-artwork": {
+          "front_default": "image bulba"
+        }
+      }
+    }
+  },
+  "ivysaur": {
+    "name": "ivysaur",
+    "species": {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+    },
+    "sprites": {
+      "other": {
+        "official-artwork": {
+          "front_default": "image ivy"
+        }
       }
     }
   }
