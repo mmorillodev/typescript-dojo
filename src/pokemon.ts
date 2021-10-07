@@ -4,6 +4,6 @@ export function getPokemonImages(): SimplePokeInfo[] {
   return [];
 }
 
-export const getPokemonEvolutions = (): SimplePokeInfo[] => {
+export const getPokemonEvolutions = (): PokemonEvolutions[] => {
   return [];
 };
