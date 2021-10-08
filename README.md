@@ -2,11 +2,14 @@
 
 ## Todo
 
-- Testar prettier no Intellij
 - Pedir para pessoas:
     - Clonarem o repositório
     - Instalar as dependências
     - Rodar `npm i`
+    - Adicional o plugin do prettier no IntelliJ
+      - Ir em `preferences` > `languages & framworks` > `Javascript` > `Prettier`
+      - Ativar ambos os checkboxes
+      - Colocar em `run for files` o seguinte conteúdo: `{**/*,*}.{js,ts,jsx,tsx,css,scss,sass}`
 - Estruturar o que sera falado no inicio e contar quanto tempo demandará
     - Revisar README
 
