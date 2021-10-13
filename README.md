@@ -1,42 +1,24 @@
 # Typescript mob
 
-## Todo
+## Initial steps
 
-- Pedir para pessoas:
-    - Clonarem o repositório
-    - Instalar as dependências
-    - Rodar `npm i`
-    - Adicional o plugin do prettier no IntelliJ
-      - Ir em `preferences` > `languages & framworks` > `Javascript` > `Prettier`
-      - Ativar ambos os checkboxes
-      - Colocar em `run for files` o seguinte conteúdo: `{**/*,*}.{js,ts,jsx,tsx,css,scss,sass}`
-- Estruturar o que sera falado no inicio e contar quanto tempo demandará
-    - Revisar README
+### Rodar `npm i`
 
-## O que será abordado
+### Add `prettier` plugin to IntelliJ
 
-## Pontos
+### Enable prettier as a default formatter:
 
-- Hello world
-- Introdução ao Jest
-- Compilar/executar o TS (com e sem argumento)
-- Declarar variáveis (var, let e const)
-    - escopo do var
-- Função (arrow vs function)
-- js object
-- `this`
-- import e export
-- Criando tipos (`interface` vs `type`)
-- || vs ??
-- JS vs TS (oq é especifico TS e JS)
-- NPM
-- Promises (`async await` vs `then`)/callbacks
+- Go to `preferences` > `languages & frameworks` > `Javascript` > `Prettier`
+- Click on all checkboxes
+- on `run for files` insert the following: `{**/*,*}.{js,ts,jsx,tsx,css,scss,sass}`
 
 ## Pre requisitos
 
 - Node
 - NPM
 - Typescript global `npm i -g typescript`
+
+---
 
 ## Available Scripts
 

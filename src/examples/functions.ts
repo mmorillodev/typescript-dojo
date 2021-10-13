@@ -33,7 +33,7 @@ const yellArrowFunction = () => {
   console.log('aaaaaaaaaaa arrow function');
 };
 
-// =========`this` scope========
+// =========`this` scope ========
 
 const person: Person & { isAdult: () => void } = {
   name: 'Matheus',

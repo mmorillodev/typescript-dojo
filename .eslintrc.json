@@ -4,17 +4,13 @@
     "es2021": true,
     "jest": true
   },
-  "extends": [
-    "airbnb-base"
-  ],
+  "extends": ["airbnb-base"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": [
-    "@typescript-eslint"
-  ],
+  "plugins": ["@typescript-eslint"],
   "rules": {
     "semi": "off",
     "no-unused-vars": "off",
@@ -28,6 +24,15 @@
     "padded-blocks": "warn",
     "implicit-arrow-linebreak": "off",
     "import/prefer-default-export": 1,
+    "vars-on-top": "off",
+    "no-var": "off",
+    "no-plusplus": "off",
+    "no-empty": "off",
+    "block-scoped-var": "off",
+    "wrap-iife": "off",
+    "no-underscore-dangle": "off",
+    "func-names": "off",
+    "prefer-arrow-callback": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -43,12 +48,7 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [
-          ".js",
-          ".jsx",
-          ".ts",
-          ".tsx"
-        ]
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     }
   }

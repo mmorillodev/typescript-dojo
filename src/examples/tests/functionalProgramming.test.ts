@@ -13,10 +13,8 @@ describe('functionalProgramming.ts', () => {
     expect(doubleAllItems(arr)).toEqual([2, 4, 6, 8, 10, 12]);
   });
 
-  it('should return the r', () => {});
-
-  it('should return the negative number of a given array', () => {
-    const arr = [1, 2, 3, 4, -5, 6];
+  it('should return the first negative number of a given array', () => {
+    const arr = [1, 2, 3, 4, -5, -6];
     expect(findNegative(arr)).toBe(-5);
   });
 

@@ -1,4 +1,4 @@
-// # Promises - then/catch vs async await + Promise.all
+// # Promises - then/catch vs async await + bonus: Promise.all
 
 import { PokemonList } from '../types/PokemonList';
 import { PokemonDetails } from '../types/PokemonDetails';

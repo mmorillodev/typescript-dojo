@@ -9,17 +9,17 @@ const personB: Person = {
 
 describe('Comparing question mark and pipe operators', () => {
   it('Should have the same behaviours, when person without country', () => {
-    const countryPersonA_Question = personA.address?.country ?? 'BR';
-    const countryPersonA_Pipe = personA.address?.country || 'BR';
+    const countryPersonAQuestion = personA.address?.country ?? 'BR';
+    const countryPersonAPipe = personA.address?.country || 'BR';
 
-    expect(countryPersonA_Question).toEqual('BR');
-    expect(countryPersonA_Pipe).toEqual('BR');
+    expect(countryPersonAQuestion).toEqual('BR');
+    expect(countryPersonAPipe).toEqual('BR');
   });
   it('Should have different behaviours, when person with empty country', () => {
-    const countryPersonB_Question = personB.address?.country ?? 'BR';
-    const countryPersonB_Pipe = personB.address?.country || 'BR';
+    const countryPersonBQuestion = personB.address?.country ?? 'BR';
+    const countryPersonBPipe = personB.address?.country || 'BR';
 
-    expect(countryPersonB_Question).toEqual('');
-    expect(countryPersonB_Pipe).toEqual('BR');
+    expect(countryPersonBQuestion).toEqual('');
+    expect(countryPersonBPipe).toEqual('BR');
   });
 });

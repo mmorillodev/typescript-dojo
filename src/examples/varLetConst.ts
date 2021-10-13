@@ -3,6 +3,7 @@
 for (var i = 0; i < 10; i++) {}
 
 console.log(`i ${i}`);
+
 (function () {
   var insideFunction = 'Yay';
   console.log(insideFunction);
