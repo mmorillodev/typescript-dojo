@@ -1,22 +1,21 @@
 # Typescript mob
 
+## Requirements
+
+- Node
+- NPM
+- Typescript global `npm i -g typescript`
+- Add `prettier` plugin to IntelliJ
+
 ## Initial steps
 
-### Rodar `npm i`
-
-### Add `prettier` plugin to IntelliJ
+### Run `npm i`
 
 ### Enable prettier as a default formatter:
 
 - Go to `preferences` > `languages & frameworks` > `Javascript` > `Prettier`
 - Click on all checkboxes
 - on `run for files` insert the following: `{**/*,*}.{js,ts,jsx,tsx,css,scss,sass}`
-
-## Pre requisitos
-
-- Node
-- NPM
-- Typescript global `npm i -g typescript`
 
 ---
 
