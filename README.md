@@ -1,5 +1,7 @@
 # Typescript mob
 
+Repository used by me to drive a mob session in order to tech Typescript to Java developers
+
 ## Requirements
 
 - Node
